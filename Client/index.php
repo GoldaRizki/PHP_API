@@ -10,7 +10,7 @@
 
 $semua = file_get_contents('http://localhost/RestAPI/server/index.php/manusia');
 
-echo $semua . '<br>';
+
 $print_semua = json_decode($semua);
 
 
